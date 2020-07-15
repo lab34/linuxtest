@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    linux:
+        image: ubuntu
+        stdin_open: true
+        tty: true
+        command: bash
+        volumes:
+            - "./data:/home"
+

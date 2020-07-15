@@ -1,1 +1,0 @@
-docker run --rm --name linuxtest -v c:/github/linuxtest/data:/home -it ubuntu bash
