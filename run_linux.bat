@@ -1,0 +1,1 @@
+docker run --rm --name linuxtest -v c:/dev/linuxtest/data:/home -it ubuntu bash
